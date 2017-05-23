@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{642821d6-9ee0-4ba8-a36d-762779badfcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{500a9693-1b3b-425b-93c2-f9eb47895f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{2536fa46-b162-470d-8bb3-137dc9e6133a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dao">
+      <UniqueIdentifier>{0fd19c63-432c-45d1-b10f-80f42fd96180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{992134dc-544c-41dd-9cc4-7d4dda079aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Header Files">
+      <UniqueIdentifier>{b2facb52-a572-4e37-950a-56d4a7220d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\Header Files">
+      <UniqueIdentifier>{e3216529-2608-4cc9-aaa3-8314ec62bcc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dao\Header Files">
+      <UniqueIdentifier>{a476c2fc-ac92-43fc-a093-c3d298d9aec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Header Files">
+      <UniqueIdentifier>{b5563a93-b111-460c-a538-571912d65094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Header Files">
+      <UniqueIdentifier>{ad6de6e6-d293-4f69-96f1-7dc095f6edc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Source Files">
+      <UniqueIdentifier>{2bc93544-d249-4380-8a78-c9a19dc7feaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\Source Files">
+      <UniqueIdentifier>{02302428-7598-4caa-9eda-4222f41b5ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dao\Source Files">
+      <UniqueIdentifier>{b62b0312-a24f-40d5-bc87-69bcc4e5e170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Source Files">
+      <UniqueIdentifier>{3e45f661-3873-475c-83a4-b4ebee6942ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Source Files">
+      <UniqueIdentifier>{5ade9c4a-afbe-4eb0-87e6-ec04624e6763}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>View\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RKDBMS1View.h">
+      <Filter>View\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Global\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RKDBMS1.h">
+      <Filter>Global\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Global\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Global\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RKDBMS1Doc.h">
+      <Filter>Logic\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>View\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RKDBMS1View.cpp">
+      <Filter>View\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RKDBMS1.cpp">
+      <Filter>Global\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Global\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RKDBMS1Doc.cpp">
+      <Filter>Logic\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RKDBMS1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\RKDBMS1.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\RKDBMS1Doc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\RKDBMS1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
